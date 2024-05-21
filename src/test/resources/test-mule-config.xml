@@ -1,0 +1,13 @@
+<mule xmlns="http://www.mulesoft.org/schema/mule/core"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:mule-amazon-textract="http://www.mulesoft.org/schema/mule/mule-amazon-textract"
+      xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+          http://www.mulesoft.org/schema/mule/mule-amazon-textract http://www.mulesoft.org/schema/mule/mule-amazon-textract/current/mule-mule-amazon-textract.xsd">
+
+    <mule-amazon-textract:config name="config">
+        <mule-amazon-textract:connection />
+    </mule-amazon-textract:config>
+
+    <flow name="emptyFlow"><logger message="placeholder" /></flow>
+
+</mule>
