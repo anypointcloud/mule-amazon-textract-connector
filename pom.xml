@@ -8,7 +8,7 @@
     <artifactId>mule-amazon-textract-connector</artifactId>
     <version>0.0.0-SNAPSHOT</version>
     <packaging>mule-extension</packaging>
-    <name>Mule Amazon Textract Extension</name>
+    <name>Mule Amazon Textract Connector</name>
     <url>https://github.com/anypointcloud/mule-amazon-textract-connector</url>
     <licenses>
         <license>
